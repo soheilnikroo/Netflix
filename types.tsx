@@ -1,3 +1,4 @@
+import MovieDetails from './screens/MovieDetailsScreen/MovieDeatails';
 /**
  * Learn more about using TypeScript with React Navigation:
  * https://reactnavigation.org/docs/typescript/
@@ -17,6 +18,7 @@ export type BottomTabParamList = {
 
 export type HomeParamList = {
   HomeScreen: undefined;
+  MovieDetailsScreen: undefined;
 };
 
 export type TabTwoParamList = {

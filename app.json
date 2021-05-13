@@ -4,13 +4,13 @@
     "slug": "myapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/netflixlogo.jpg",
     "scheme": "myapp",
     "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image":"./assets/images/netflixlogo.jpg",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#010101"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,12 +23,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/netflixlogo.jpg",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/netflixlogo.jpg"
     }
   }
 }
