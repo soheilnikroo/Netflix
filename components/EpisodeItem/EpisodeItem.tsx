@@ -2,22 +2,11 @@ import * as React from 'react';
 import { Image } from 'react-native';
 import {Text,View} from '../Themed';
 import {AntDesign} from '@expo/vector-icons';
+import {Episode} from '../../types';
 
 import styles from './styles'
 
-interface EpisodeItemProps{
-
-    episode:{
-        id:string,
-        title:string,
-        poster:string,
-        duration:string,
-        plot:string,
-        video:string
-    }
-}
-
-const EpisodeItem=(props:EpisodeItemProps) => {
+const EpisodeItem=(props:Episode) => {
 
     const {episode}=props;
 

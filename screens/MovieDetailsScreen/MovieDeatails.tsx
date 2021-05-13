@@ -16,7 +16,7 @@ const firstEpisode=firstSeason.episodes.items[0];
 const MovieDetails=()=>{
 
     const [currentSeason,setCurrentSeason]=useState(firstSeason);
-
+    const [currentEpisode,setCurrentEpisode]=useState(firstSeason.episodes.items[0]);
     const seasonNames= movie.seasons.items.map(season=>season.name);
 
     return(

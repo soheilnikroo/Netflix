@@ -63,6 +63,11 @@ function TabOneNavigator() {
   return (
     <HomeStack.Navigator>
       <HomeStack.Screen
+          name="HomeScreen"
+          component={HomeScreen}
+          options={{ headerShown: false }}
+      />
+      <HomeStack.Screen
         name="MovieDetailsScreen"
         component={MovieDetailsScreen}
         options={{ 
@@ -70,11 +75,6 @@ function TabOneNavigator() {
           headerTitleAlign:'center',
         }}
       />
-        <HomeStack.Screen
-          name="HomeScreen"
-          component={MovieDetailsScreen}
-          options={{ headerShown: false }}
-        />
     </HomeStack.Navigator>
   );
 }
